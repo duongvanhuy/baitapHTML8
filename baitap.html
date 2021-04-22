@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center{
+            display: inline-block;
+             padding: 10px 20px;
+             width: 1200px;
+        }
+        .content{
+            display: inline-block;
+            width: 200px;
+          
+        }
+        select{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="center">
+    <div class="content">
+        <span><p> <b>Currency</b></p></span>
+        <select id="traloi1" name="traloi1" >
+            <option value="VNĐ" >VNĐ</option>
+            <option value="USD">USD</option>
+        </select>
+    </div>
+    <div class="content">
+        <span><p><b>To Currency</b></p></span>
+        <select id="traloi2" name="traloi2" >
+            <option value="USD" >USD</option>
+            <option value="VNĐ">VNĐ</option>
+        </select>
+    </div>
+    <div class="content">
+        <span><p><b>Amount:</b></p></span>
+        <input type="number" name="" id="money" style="width: 100px">
+    </div>
+    <div class="content">
+        <button onclick="USD()">chuyển đổi</button>
+    </div>
+   
+            <p>KQ:<span id="KQ"></span></p>
+    
+</div>
+</body>
+</html>
+<script src="Scrip/jvscrip.js"></script>
